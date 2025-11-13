@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCalc - SidewinderLabs</title>
+    <link rel="stylesheet" href="../../styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="../../index.html" class="back-btn">
+                <span>←</span>
+                <span>Retour</span>
+            </a>
+            <div class="nav-logo">⚡ SidewinderLabs</div>
+        </nav>
+
+        <div class="app-header">
+            <img src="ecocalc-icon.png" alt="EcoCalc" class="app-icon">
+            <div class="app-info">
+                <h1>EcoCalc</h1>
+                <div class="app-version">
+                    <span>📅 Dernière version :</span>
+                    <span class="version-badge">v0.1.0 - 13 Novembre 2025</span>
+                </div>
+                <a href="#" class="download-btn large" onclick="downloadApp(event)">
+                    <span>⬇️</span>
+                    <span>Télécharger APK</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="description">
+            <h2>À propos d'EcoCalc</h2>
+            <p>
+                EcoCalc est votre calculateur de référence pour toutes vos transactions financières au Togo. 
+                Conçu spécifiquement pour les utilisateurs togolais, il vous permet de calculer instantanément 
+                les frais de Mobile Money et de gérer vos cartes prépayées en toute simplicité.
+            </p>
+            <p>
+                Plus besoin de vous demander combien vous coûtera votre prochain transfert ou recharge. 
+                EcoCalc vous donne la réponse en quelques secondes avec une précision parfaite.
+            </p>
+
+            <h2 style="margin-top: 30px;">Fonctionnalités principales</h2>
+            <ul class="features-list">
+                <li>Calcul instantané des frais Mobile Money (Togocom, Moov)</li>
+                <li>Interface simple et intuitive</li>
+                <li>Application légère et rapide</li>
+                <li>Fonctionne hors ligne</li>
+                <li>Aucune publicité</li>
+                <li>100% gratuit</li>
+            </ul>
+        </div>
+
+        <section class="screenshots">
+            <h2>Captures d'écran</h2>
+            <div class="screenshots-grid">
+                <div class="screenshot-card">
+                    <img src="screens/screencalc.jpg" alt="Écran d'accueil" style="width: 100%; aspect-ratio: 9/20; border-radius: 15px; object-fit: cover;">
+                    
+                </div>
+                <div class="screenshot-card">
+                    <img src="screens/screenmobile.jpg" alt="Calcul Mobile Money" style="width: 100%; aspect-ratio: 9/20; border-radius: 15px; object-fit: cover;">
+                   
+                </div>
+                <div class="screenshot-card">
+                    <img src="screens/screenprepaid.jpg" alt="Cartes prépayées" style="width: 100%; aspect-ratio: 9/20; border-radius: 15px; object-fit: cover;">
+                    
+                </div>
+            </div>
+        </section>
+
+        <div class="download-section">
+            <h2>Prêt à simplifier vos calculs ?</h2>
+            <p>Téléchargez EcoCalc maintenant et ne vous souciez plus jamais des frais de transaction</p>
+            <a href="#" class="download-btn large" onclick="downloadApp(event)">
+                <span>⬇️</span>
+                <span>Télécharger EcoCalc (APK)</span>
+            </a>
+        </div>
+
+        <footer>
+            <p>🇹🇬 Fait avec ❤️ pour le Togo | © 2024 SidewinderLabs</p>
+        </footer>
+    </div>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>
